@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/Oc.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .menu {
+    background-color: #05a4c4;
+    padding: 20px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,.15);
+  }
+
+  .menu a {
+    display: block;
+    color: rgb(209, 212, 29);
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255);
+    transition: 0.3s;
+  }
+
+  .content {
+    order: 2;
+    background-color: rgb(219, 216, 230);
+    padding: 20px;
+    width: 70%;
+  }
+
+  footer {
+    background-color: #777;
+    padding: 50px;
+    text-align: center;
+    color: white;
+  }
+  
